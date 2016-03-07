@@ -188,12 +188,12 @@ PLAY.execute = function(blockchain, block_num, pending_state){
 
    var shares_destroyed = 0;
    var shares_created = 0;
-   var result = {};
-   result["execute_results"] = [];
-   result["game_datas"] = [];
-   result["diff_balances"] = [];
-   result["diff_supply"] = [];
-   // var result = {"execute_results": [], "game_datas": [], "diff_balances": [], "diff_supply": []};
+   //var result = {};
+   //result["execute_results"] = [];
+   //result["game_datas"] = [];
+   //result["diff_balances"] = [];
+   //result["diff_supply"] = [];
+   var result = {"execute_results": [], "game_datas": [], "diff_balances": [], "diff_supply": []};
    for (var pos in block_digest_of_dice.user_transaction_ids)
    {
       var id = block_digest_of_dice.user_transaction_ids[pos];
