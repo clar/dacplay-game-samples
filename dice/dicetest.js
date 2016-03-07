@@ -21,10 +21,10 @@ PLAY.version = "0.0.2";
 
 // TODO: We should not have the assumption that the asset id equals to game id.
 // TODO: The game info and game asset info should be loaded from "outside" when init the game engine instead.
-PLAY.game_id = 1;
+PLAY.game_id = 2;
 PLAY.game_asset = {
-        asset_id : 1,
-        symbol : "DICE"
+        asset_id : 2,
+        symbol : "DICEC"
     };
 /*
  * Play this game with input in the context to blockchain and wallet
